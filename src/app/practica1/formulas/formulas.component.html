@@ -1,0 +1,13 @@
+<h1 >Practica 1: es capicua el numero?</h1>
+
+<h2>Ejercicio en Angular</h2>
+
+<div>
+    <input type="text" placeholder="Checkear numero" [(ngModel)]="numero" (input)="checkCapicua()">
+</div>
+
+@if (capicuaBool === true ) {
+    <h1>El numero es capicua</h1>
+}@else {
+    <h1>El numero no es capicua</h1>
+}
